@@ -103,7 +103,7 @@ function createNextLaunchOverview(resultNextLaunch) {
 
 
 ///////////NEXT LAUNCH COUNTDOWN TIMER/////////////
-var countDownDate = new Date("Jun 10, 2019 00:00:00").getTime();
+var countDownDate = new Date("July 1, 2019 00:00:00").getTime();
 
 
 var timeLeft = setInterval(function () {

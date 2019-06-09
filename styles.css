@@ -20,25 +20,9 @@ Dark Gray: rgb(20,20,20,1);
 
 OTHER:
 
-<a class="activeNavLink" href="/index.html">Current</a>
-<a class="navLink" href="/future.html">Future</a>
-<a class="navLink" href="/history.html">History</a>
-<a class="navLink" href="/contact.html">Contact</a>
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -291,6 +275,9 @@ body {
 	width: 100%;
 	margin: 0px 30px 0 30px;
 }
+
+
+
 /* ______Collapsibles ______*/
 .col3 {
 
@@ -319,11 +306,13 @@ body {
 
 
 
-.active,
+
 .collapsible:hover {
 	background-color: rgb(255, 255, 255, 0.5);
 	box-shadow: none;
 }
+
+
 
 .collapseContent {
 	padding: 0 18px;
@@ -704,6 +693,122 @@ body {
 	
 }
 
+
+/* _______________FUTURE_______________*/
+
+/* _______________ Future Plans _______________*/
+
+/* _______________Timeline_______________*/
+
+.basicTimeline {
+	width: 90%;
+	padding: 50px 0;
+	margin: 50px auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.basicTimeline:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 2px;
+	height: 100%;
+	background: #CCD1D9;
+	z-index: 1;	
+}
+
+.basicTimeline h3 {
+	letter-spacing: 4px;
+	font-weight: 100;
+}
+
+.timelineTextArea {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	border-top: rgb(255, 255, 255, 0.5) dotted medium;
+	border-bottom: rgb(255, 255, 255, 0.5) dotted medium;
+	background-color: rgb(255, 255, 255, 0.04)
+}
+
+.timelineTextArea p {
+	font-size: 14px;
+}
+
+.timelineTextArea p, h2, h3 {
+	padding: 5px;
+}
+
+.timelineTextAreaRight {
+	float: right;
+}
+
+.timelineTextAreaLeft {
+	float: left;
+	
+}
+
+
+.timeline-content {
+	width: 100%;
+	padding: 4px;
+}
+
+
+.timelineImg {
+	display: block;
+	text-align: center;
+}
+
+.timelineImg img {
+	max-width: 30vw;
+	border-radius: 40px;
+	margin-bottom: 20px;
+}
+
+/* _______________ Future Launches _______________*/
+
+.centerContentDiv {
+	margin-bottom: 20px;
+}
+
+.centerContentDiv h2 {
+	text-align: center;
+	background-color: rgb(225,225,225 0.5);
+}
+
+
+#futureLaunchesTable {
+	margin: auto;
+	border: rgb(255, 255, 255, 1) solid thin;
+	border-radius: 20px;
+	background-color: rgb(225,225,225, 0.07);
+}
+
+
+
+#futureLaunchesTable td{
+	
+	padding: 15px;
+	font-weight: 300;
+	border-bottom: rgb(255, 255, 255, 0.3) solid thin;
+	border-right: rgb(255, 255, 255, 0.3) solid thin;
+}
+
+
+#futureLaunchesTable th {
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	padding: 15px;
+	text-align: center;
+	background-color: rgb(255, 255, 255, 0.3);
+}
+
+
+
 /* _______________FOOTER _______________*/
 
 
@@ -840,10 +945,6 @@ footer {
 	.content-wrap p {
 		font-size: 14px;
 	}
-
-
-
-
 	.parallax1,
 	.parallax2,
 	.parallax3,
@@ -882,12 +983,78 @@ footer {
 
 }
 
-@media only screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
+	
+	
 	.thumbnailGallery {
 		width: 50%;
 		margin: 6px 0;
 	}
+
+	table, thead, tbody, th, td, tr {
+		display: block;
+		
+	}
+	
+	#futureLaunchesTable {
+		border: none;
+		background: transparent;
+		
+	}
+	
+	thead tr {
+		position: absolute;
+		display: none;
+		
+	}
+	
+	tr { 
+		border: rgb(255, 255, 255, 1) solid thin;
+		border-radius: 20px;
+		margin-bottom: 20px;
+	}
+	
+	td {
+		position: relative;
+		padding-left: 200px;
+		margin-left: 150px;
+	}
+	td:before {
+		position: absolute;
+		top: 12px;
+		left: 6px;
+		width: 200px;
+		padding-right: 40px;
+		white-space: nowrap;
+		margin-left: -150px;
+	}
+	
+	
+	td:nth-of-type(1):before { content: "Mission Name"; }
+	td:nth-of-type(2):before { content: "Launch Year"; }
+	td:nth-of-type(3):before { content: "Launch Date(UTC)"; }
+	td:nth-of-type(4):before { content: "Rocket Name";}
+	td:nth-of-type(4):before { content: "Location";}
+			
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
 }
+
 
 @media only screen and (max-width: 500px) {
 	.thumbnailGallery {
