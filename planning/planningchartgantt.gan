@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Project Exam 2019" company="" webLink="http://" view-date="2019-05-28" view-index="0" gantt-divider-location="563" resource-divider-location="300" version="2.8.9" locale="en_GB">
+    <description><![CDATA[Gant chart for the project exam of Spring 2019]]></description>
+    <view zooming-state="default:0" id="gantt-chart">
+        <field id="tpd3" name="Name" width="408" order="0"/>
+        <field id="tpd4" name="Begin date" width="82" order="1"/>
+        <field id="tpd5" name="End date" width="69" order="2"/>
+        <option id="color.recent"><![CDATA[#cc66ff #0066cc #cc0000 #eeeeee #99ff66 #33ff00 #ffff00 #990099 #ff0066 #009999]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" name="PLANNING STAGE 1" color="#99ff66" meeting="false" start="2019-05-13" duration="7" complete="100" thirdDate="2018-11-22" thirdDate-constraint="0" expand="true">
+            <task id="7" name="Read Assignment and info" color="#99ff66" meeting="false" start="2019-05-13" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="1" expand="true"/>
+            <task id="5" name="Research similar pages/services" color="#99ff66" meeting="false" start="2019-05-13" duration="2" complete="100" thirdDate="2018-11-19" thirdDate-constraint="0" expand="true"/>
+            <task id="3" name="List and plan activites" color="#99ff66" meeting="false" start="2019-05-14" duration="2" complete="100" thirdDate="2018-11-19" thirdDate-constraint="0" expand="true"/>
+            <task id="9" name="Make Gantt Chart" color="#99ff66" meeting="false" start="2019-05-14" duration="3" complete="100" thirdDate="2018-11-19" thirdDate-constraint="0" expand="true"/>
+            <task id="32" name="Create a Functional Specification" color="#99ff66" meeting="false" start="2019-05-18" duration="2" complete="100" thirdDate="2019-04-29" thirdDate-constraint="0" expand="true"/>
+            <task id="36" name="Create a project planning document" color="#99ff66" meeting="false" start="2019-05-18" duration="2" complete="100" thirdDate="2019-04-29" thirdDate-constraint="0" expand="true"/>
+            <task id="21" name="Final edit and delivery" color="#99ff66" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2019-05-19" duration="1" complete="100" thirdDate="2018-11-19" thirdDate-constraint="0" priority="2" expand="true">
+                <depend id="30" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="30" name="PLANNING STAGE 2" color="#cc66ff" meeting="false" project="true" start="2019-05-20" duration="5" complete="0" thirdDate="2019-04-29" thirdDate-constraint="0" expand="true">
+            <depend id="46" type="2" difference="0" hardness="Strong"/>
+            <task id="39" name="Decide Target audience" color="#cc66ff" meeting="false" start="2019-05-20" duration="1" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" expand="true"/>
+            <task id="41" name="Create personas" color="#cc66ff" meeting="false" start="2019-05-20" duration="2" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" expand="true"/>
+            <task id="45" name="Create Storyboards" color="#cc66ff" meeting="false" start="2019-05-21" duration="3" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" expand="true"/>
+            <task id="29" name="Make moodboards" color="#cc66ff" meeting="false" start="2019-05-21" duration="1" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" expand="true"/>
+            <task id="11" name="Create layout skecthes" color="#cc66ff" meeting="false" start="2019-05-22" duration="2" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" expand="true"/>
+            <task id="19" name="Create prototype in XD" color="#cc66ff" meeting="false" start="2019-05-22" duration="3" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" expand="true"/>
+            <task id="139" name="Final edit and delivery" color="#cc66ff" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2019-05-24" duration="1" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" priority="2" expand="true"/>
+        </task>
+        <task id="46" name="DESIGN" color="#ff3399" meeting="false" start="2019-05-27" duration="4" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="true">
+            <task id="47" name="Research and test color schemes" color="#ff3399" meeting="false" start="2019-05-27" duration="4" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="true"/>
+            <task id="76" name="Research and test CSS and JS effects" color="#ff3399" meeting="false" start="2019-05-27" duration="4" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="true"/>
+            <task id="48" name="Research icons" color="#ff3399" meeting="false" start="2019-05-27" duration="2" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="true"/>
+            <task id="49" name="Create icons" color="#ff3399" meeting="false" start="2019-05-27" duration="2" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="true"/>
+            <task id="50" name="Find photos/other decor recources" color="#ff3399" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2019-05-29" duration="2" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="51" name="Image processing" color="#ff3399" meeting="false" start="2019-05-29" duration="2" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="true"/>
+            <task id="13" name="Decide on color scheme" color="#ff3399" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2019-05-30" duration="1" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" priority="2" expand="true"/>
+        </task>
+        <task id="77" name="HTML" color="#009999" meeting="false" start="2019-05-30" duration="2" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" priority="2" expand="true">
+            <depend id="83" type="2" difference="0" hardness="Strong"/>
+            <task id="78" name="Build pages in HTML" color="#009999" meeting="false" start="2019-05-30" duration="2" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" expand="true"/>
+            <task id="79" name="Test pages" color="#009999" meeting="false" start="2019-05-31" duration="1" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="83" name="JAVASCRIPT" color="#cc0000" meeting="false" start="2019-06-03" duration="5" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" priority="2" expand="true">
+            <depend id="80" type="2" difference="0" hardness="Strong"/>
+            <task id="84" name="Implement Javascript" color="#cc0000" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2019-06-03" duration="5" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="85" name="Test pages" color="#cc0000" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2019-06-06" duration="2" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="80" name="CSS" color="#990099" meeting="false" start="2019-06-10" duration="2" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" priority="2" expand="true">
+            <depend id="127" type="2" difference="0" hardness="Strong"/>
+            <task id="81" name="Style pages with CSS" color="#990099" meeting="false" start="2019-06-10" duration="2" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="127" name="TESTING" color="#ffff00" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2019-06-12" duration="2" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" priority="2" expand="true">
+            <task id="128" name="Get people to test page" color="#ffff00" meeting="false" start="2019-06-12" duration="1" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" expand="true"/>
+            <task id="129" name="Make changes after feedback" color="#ffff00" meeting="false" start="2019-06-12" duration="2" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" expand="true"/>
+            <task id="130" name="Test on various devices" color="#ffff00" meeting="false" start="2019-06-12" duration="2" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="134" name="Delivery" color="#0066cc" meeting="false" start="2019-06-12" duration="3" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" priority="2" expand="true">
+            <task id="132" name="Write report" color="#0066cc" meeting="false" start="2019-06-12" duration="3" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="131" name="File check and delivery" color="#0066cc" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2019-06-14" duration="1" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" priority="4" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>

@@ -1,0 +1,31 @@
+body {
+    background: #000;
+}
+
+.container {
+    max-width: auto;
+    margin: 0 auto;
+    background: rgb(225,225,255, 0.3);
+    font-size: 24px;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 20px;
+}
+
+.parallax1 {
+    background-image: url("/./images/25377631178_d28e0a9141_o.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600;
+    border-style: solid;
+    border-width: thick;
+    border-left: none;
+    border-right: none;
+}
+
+.parallax2 {
+    background-image: url("/./images/36689885100_c3c427c6bf_o.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
