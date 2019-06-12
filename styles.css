@@ -230,7 +230,7 @@ body {
 
 
 .col4 {
-	width: 100%;
+	width: auto;
 }
 
 
@@ -242,7 +242,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	color: rgb(255, 255, 255, 0.8);
 	background-color: rgb(255, 255, 255, 0.1);
-	font-weight: 600;
+	font-weight: 300;
 	font-size: 12pt;
 	padding: 10px;
 	text-decoration: none;
@@ -251,7 +251,7 @@ body {
 	border-style: solid;
 	letter-spacing: 4px;
 	text-align: center;
-
+	box-shadow: 0px 5px 9px 3px rgb(0, 0, 0, 0.4);
 
 }
 
@@ -259,7 +259,8 @@ body {
 .basicButtonLink a:hover {
 	background-color: rgb(255, 255, 255, 1);
 	color: rgb(0, 0, 0, 1.0);
-	font-weight: 600;
+	font-weight: 300;
+	box-shadow: none;
 	
 }
 
@@ -270,7 +271,9 @@ body {
 	padding: 20px;
 	border: rgb(255, 255, 255, 0.5) solid thin;
 	border-radius: 10px;
-	margin-left: 0px;
+	margin: auto;
+	width: auto;
+	
 }
 
 
@@ -278,7 +281,7 @@ body {
 .textArea {
 	display: flex;
 	flex-direction: row;
-	width: 100%;
+	width: auto;
 	margin: 0px 30px 0 30px;
 }
 
@@ -663,6 +666,7 @@ body {
 	border-style: solid;
 	letter-spacing: 4px;
 	text-align: center;
+	box-shadow: 0px 5px 9px 3px rgb(0, 0, 0, 0.4);
 	
 	
 	
@@ -673,6 +677,7 @@ body {
 	background-color: rgb(255, 255, 255, 1);
 	color: rgb(0, 0, 0, 1.0);
 	font-weight: 600;
+	box-shadow: none;
 }
 
 
@@ -795,7 +800,10 @@ body {
 /* _______________ Future Launches _______________*/
 
 .centerContentDiv {
-	margin-bottom: 20px;
+	
+	max-width: 80vw;
+	margin: auto;
+	margin-bottom: 50px;
 }
 
 .centerContentDiv h2 {
@@ -805,7 +813,8 @@ body {
 
 
 #futureLaunchesTable {
-	margin: auto;
+	margin: 0px;
+	padding: 0px;
 	border: rgb(255, 255, 255, 1) solid thin;
 	border-radius: 20px;
 	background-color: rgb(225,225,225, 0.07);
@@ -1048,7 +1057,7 @@ body {
 .timeline-content2 a {
 	font-family: 'Roboto', sans-serif;
 	color: rgb(255, 255, 255, 0.8);
-	background-color: rgb(255, 255, 255, 0.);
+	background-color: #550000;
 	font-weight: 300;
 	font-size: 14pt;
 	padding: 10px;
@@ -1065,7 +1074,7 @@ body {
 	background-color: rgb(255, 255, 255, 1);
 	box-shadow: none;
 	color: rgb(0, 0, 0, 1.0);
-	font-weight: 600;
+	font-weight: 300;
 }
 
 /* _______________FOOTER _______________*/
@@ -1178,34 +1187,18 @@ footer {
 
 
 /* _______________MOBILE _______________*/
-@media only screen and (max-width: 1200px) {
-	.parallaxheader {
-		font-size: 16px;
-		width: 100%
-	}
-
-
-	.textArea h2 {
-		font-size: 18px;
-	}
-
-	.content-wrap p {
-		font-size: 14px;
-	}
+@media only screen and (max-width: 1440px) {
 	
-	#launchPadsInformation  {
-		display: inline-block;
-		width: 80%;
-		margin-left: 25%
+	
+	
+	.launchVideo iframe {
+		width:450px;
 	}
 	
 }
 
 @media only screen and (max-width: 900px) {
-	/*.parallax1 {
-    background-attachment: scroll;
-  } */
-
+	
 	.content-wrap p {
 		font-size: 14px;
 	}
@@ -1219,7 +1212,7 @@ footer {
 	.mainHeader {
 		max-width: 90vw;
 		margin: auto;
-	
+
 	}
 
 
@@ -1245,7 +1238,7 @@ footer {
 		padding: 0;
 		padding-bottom: 10px;
 	}
-	
+
 	body {
 		max-width: 90vw;
 		margin: auto;
@@ -1253,7 +1246,7 @@ footer {
 
 
 }
-
+	
 @media screen and (max-width: 768px) {
 	
 	
@@ -1307,35 +1300,302 @@ footer {
 	td:nth-of-type(4):before { content: "Rocket Name";}
 	td:nth-of-type(4):before { content: "Location";}
 			
+	}	
+	
+
+
+
+@media only screen and (max-width: 900px) {
+	
+	/* ______Parallaxes ______*/
+
+	.parallax1,
+	.parallax2,
+	.parallax3,
+	.parallax4,
+	.parallax5,
+	.parallax6,
+	.parallax7,
+	.parallax8,
+	.parallax9 {
+		position: relative;
+		opacity: 1;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	.parallax1 {
+		background-image: url("images/resized/welcomepar.jpg");
+		min-height: 500px;
+		
+	}
 
-	
-	
-	
-}
+	.parallax2 {
+		background-image: url("images/resized/launchpar.jpg");
+		min-height: 400px;
+	}
 
+	.parallax3 {
+		background-image: url("images/resized/rocketspar.jpg");
+		min-height: 400px;
+	}
 
-@media only screen and (max-width: 500px) {
+	.parallax4 {
+		background-image: url("images/resized/launchpadspar.jpg");
+		min-height: 400px;
+	}
+
+	.parallax5 {
+		background-image: url("/images/resized/futureplanspar.jpg");
+		min-height: 400px;
+	}
+
+	.parallax6 {
+		background-image: url("/images/resized/futurelaunchspar.jpg");
+		min-height: 400px;
+	}
+
+	.parallax7 {
+		background-image: url("/images/resized/par7.jpg");
+		min-height: 400px;
+	}
+
+	.parallax8 {
+		background-image: url("/images/resized/par8v2.jpg");
+		min-height: 400px;
+	}
+
+	.parallax9 {
+		background-image: url("");
+		min-height: 400px;
+	}
+	
+	
+	
+	/* ______COMMON ________________________________________*/
+	
+	
+	body {
+		width: auto;
+	}
+	
+	
+	.content-wrap {
+		
+	}
+	
+	.parallaxheader {
+		text-align: center;
+	}
+	
+	.parHeader {
+		padding: 0px;
+		margin: auto;
+	}
+	
+	.col1, .col2, .col3 {
+		margin: auto;
+		padding: 0px;
+		text-align: center;
+	}
+	
+	.generalTextBox {
+		padding: 5px;
+		width: 100%;
+	}
+	
+	.textArea {
+		padding: 0px;
+		margin: 2px;
+	}
+	
+	.collapseContent {
+		
+		
+		
+	}
+	
+	.collapsible {
+		width: 5%;
+	}
+	
+	.collapsibleHeader {
+		font-size: 18px;
+		margin: 0px;
+	}
+	
+	
 	.thumbnailGallery {
 		width: 100%;
 	}
-}
 
-.clearfix:after {
+
+
+	.parallaxheader {
+		font-size: 14px;
+		width: 100%
+	}
+/* ______RIGHT NOW ________________________________________*/
+/* ______COMPANY _______________________*/
+	#companyInfo {
+		padding: 3px;
+		width: 100%;
+		text-align: center;
+		
+	}	
+	
+	#companyInfo ul {
+	list-style-type: none;
+	display: block;
+	}
+	
+	#companyInfo li {
+	margin: 20px;
+	text-align: center;
+	}
+
+
+	#companyInfo a {
+	font-weight: 300;
+	font-size: 12pt;
+	padding: 5px;
+	margin: 0px;
+	
+	}
+
+	.newsLetter h2 {
+		font-size: 20px;
+	}
+	
+	.newsLetter  {
+		text-align: center;
+		margin: auto;
+		padding: 0px;
+	}
+	
+	.newsLetter input {
+		width: 70%
+	}
+/* ______NEXT LAUNCH_______________________*/
+
+	.clearfix:after {
 	content: "";
 	display: table;
 	clear: both;
+	}
+
+
+	#nextLaunchCountdown {
+
+		text-align: center;
+		border: rgb(255, 255, 255, 0.5) solid thin;
+		border-radius: 20px;
+		padding: 10px;
+		background-color: rgb(255, 255, 255, 0.1);
+		margin-bottom: 20px;
+	}
+
+	#nextLaunchCountdown p {
+		display: block;
+		margin: 20px;
+		border: rgb(255, 255, 255, 0.5) solid thin;
+		border-radius: 20px;
+		padding: 5px;
+		text-align: center;
+		background-color: rgb(31, 34, 40, 1);
+	}
+
+
+	#nextLaunch {
+		text-align: left;
+		padding: 5px;
+		letter-spacing: 1px;
+	}
+
+
+	.nextLaunchMap {
+		margin: 2px;
+	}
+
+	.nextLaunchMap iframe {
+		height: 100%;
+		width: 100%;
+	}
+
+	/* ______Rockets_______________________*/
+
+	.rocketFamilyImg {
+		width: 90%;
+	}
+
+	#rocketInformation {
+		display: block;
+		margin: 0px;
+		text-align: left;
+	}
+	
+	.rocketTable {
+		width: 100%;
+		margin: 0px;
+		padding: 3px;
+	}
+	
+	.rocketTable h3 {
+		text-align: center;
+	}
+
+
+	/* ______Launch Pads_______________________*/
+	
+	.launchVideo {
+		padding: 0px;
+		margin: 0px;
+		width: 100%;
+	}
+	
+	.launchVideo iframe {
+		width: 90%;
+		height: 50%;
+		padding: 5px;
+		border: none;
+		box-shadow: none;
+	}
+	
+	.basicButtonLink a {
+		font-size: 14px;
+		padding: 5px;
+	}
+	
+	.basicButtonLink {
+		margin-top: 10px;
+	}
+	
+	
+	#launchPadsInformation {
+		display: block;
+		margin: 0px;
+		width: 100%;
+		text-align: left;
+	}
+	
+	#launchPadsInformation a {
+		padding: 5px;
+		text-align: center;
+	}
+	
+	.padTable {
+		margin: 0px;
+		padding: 5px;
+	}
+	
+	.padTable h3 {
+		text-align: center;
+	}
+	
+	
+	
+	
 }
 
