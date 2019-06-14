@@ -77,8 +77,8 @@ header {
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 4px;
-	margin: 7px;
-	border: rgb(255, 255, 255, 0.3) solid thin;
+	margin: 5px;
+	border: rgb(255, 255, 255, 1) solid thin;
 	margin-top: 20px;
 	
 }
@@ -99,13 +99,13 @@ header {
 
 .dropDownLink .dropDownName {
 	font-size: 16px;
-	border: rgb(255, 255, 255, 0.3) solid thin;
+	border: rgb(255, 255, 255, 1) solid thin;
 	outline: none;
 	color: rgb(255, 255, 255, 1);
 	padding: 10px;
 	background-color: rgb(255, 255, 255, 0.1);
 	font-family: inherit;
-	margin: 7px;
+	margin: 5px;
 	margin-top: 20px;
 	text-transform: uppercase;
 	letter-spacing: 5px;
@@ -116,12 +116,13 @@ header {
 	background-color: rgb(255, 255, 255, 1);
 	color: rgb(0, 0, 0, 1.0);
 	font-weight: 600;
+	border-color: rgb(0, 0, 0, 1);
 }
 
 .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: #f9f9f9;
+	background-color: rgb(255, 255, 255, 1);
 	min-width: 160px;
 	box-shadow: 0px 10px 18px 6px rgb(0, 0, 0, 0.7);
 	z-index: 2;
@@ -848,8 +849,11 @@ body {
 
 .contactFormDiv {
 	margin: auto;
-	width: 50%;
-	padding: 10px;	
+	width: auto;
+	padding: 10px;
+	display: block;
+	text-align: ce
+	
 }
 
 .contactFormDiv form {
@@ -931,7 +935,6 @@ body {
 
 /* _______________More info_______________*/
 .moreContactInformation {
-	margin: auto;
 	text-align: center;
 	
 }
@@ -950,6 +953,7 @@ body {
 	height: 300px;
 	margin: auto;
 	margin-bottom: 50px;
+	
 }
 
 .contactInformation p {
@@ -1029,14 +1033,21 @@ body {
 .timelineTextAreaRight2:nth-child(odd) {
 	float: left;
 	direction: rtl;
-	background-color: rgb(255, 255, 255, 0.1)
+	text-align: right;
+	background-color: rgb(255, 255, 255, 0.1);
+	margin-top: 20px;
+		
 }
+
 
 .timelineTextAreaRight2:nth-child(even) {
 	float: right;
 	width: 50%;
-	
+	text-align: left;
+	background-color: rgb(255, 255, 255, 0.1);
+	margin-top: 20px;
 }
+
 
 
 
@@ -1100,6 +1111,7 @@ footer {
 	border: thin;
 	border-style: solid;
 	box-shadow: 0px 10px 18px 6px rgb(0, 0, 0, 0.7);
+	
 }
 
 .footerlinks:hover {
@@ -1112,10 +1124,12 @@ footer {
 
 .footerlinksContainer {
 	margin: 10px;
+	
 }
 
 .footerlinksContainer a {
 	margin: 10px;
+	
 }
 
 
@@ -1297,8 +1311,8 @@ footer {
 	td:nth-of-type(1):before { content: "Mission Name"; }
 	td:nth-of-type(2):before { content: "Launch Year"; }
 	td:nth-of-type(3):before { content: "Launch Date(UTC)"; }
-	td:nth-of-type(4):before { content: "Rocket Name";}
-	td:nth-of-type(4):before { content: "Location";}
+	td:nth-of-type(4):before { content: "Rocket Name"; }
+	td:nth-of-type(5):before { content: "Location";}
 			
 	}	
 	
@@ -1306,6 +1320,58 @@ footer {
 
 
 @media only screen and (max-width: 900px) {
+	
+	/* ______HEADER______________________*/
+	
+	.mainHeader {
+		width: 100%;
+		padding-bottom: 5px;
+		text-align: center;
+		display: block;
+	}
+	
+
+	.logoSection {
+		margin: 0px;
+		padding: 3px;
+	}
+	
+	
+	.navbar {
+		overflow: hidden;
+		width: 90%;
+		margin-left: auto;
+		
+	}
+	
+
+	.navbar a {
+		font-size: 18px;
+		text-align: center;
+		padding: 2px;
+		margin-top: 2px;
+		
+	}
+
+	.dropDownLink .dropDownName {
+		font-size: 18px;
+		padding: 2px;
+		margin-top: 2px;
+	}
+
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		min-width: none;
+
+	}
+
+	.dropdown-content a {
+		padding: 7px;
+		text-align: center;
+		margin: 2px;
+	}
+	
 	
 	/* ______Parallaxes ______*/
 
@@ -1364,7 +1430,7 @@ footer {
 
 	.parallax8 {
 		background-image: url("/images/resized/par8v2.jpg");
-		min-height: 400px;
+		min-height: 500px;
 	}
 
 	.parallax9 {
@@ -1404,6 +1470,7 @@ footer {
 	.generalTextBox {
 		padding: 5px;
 		width: 100%;
+		margin-bottom: 5px;
 	}
 	
 	.textArea {
@@ -1437,6 +1504,10 @@ footer {
 		font-size: 14px;
 		width: 100%
 	}
+	
+	.collapsibleHeader  {
+		padding: 15px;
+	}
 /* ______RIGHT NOW ________________________________________*/
 /* ______COMPANY _______________________*/
 	#companyInfo {
@@ -1449,6 +1520,7 @@ footer {
 	#companyInfo ul {
 	list-style-type: none;
 	display: block;
+	padding: 5px;
 	}
 	
 	#companyInfo li {
@@ -1583,6 +1655,7 @@ footer {
 	#launchPadsInformation a {
 		padding: 5px;
 		text-align: center;
+
 	}
 	
 	.padTable {
@@ -1592,9 +1665,366 @@ footer {
 	
 	.padTable h3 {
 		text-align: center;
+		margin-bottom: 5px;
+		margin-top: 5px;
 	}
 	
 	
+	/* ______CONTACT ________________________________________*/
+	/* ______The Form _______________________*/
+	
+	.contactFormDiv {
+		display: block;
+		width: 100%;
+		padding: 0px;
+	}
+	
+	
+	.contactFormDiv p {
+		padding: 3px;
+		margin: 0px;
+	}
+	
+
+	.contactFormDiv div {
+		margin: 0px;
+		padding: 0px;
+		width: 100%;
+	}
+	
+	.contactFormDiv label {
+		font-size: 18px;
+		display: block;
+		text-align: left;
+		width: 80%;
+		margin: auto;
+	}
+
+	#inputName {
+		width: 80%;
+		padding: 5px;
+		margin: auto;
+	}
+	#emailInput {
+		width: 80%;
+		padding: 5px;
+		margin: auto;
+	}
+
+	#textInput {
+		width: 80%;
+		height: 50%px;
+		padding: 5px;
+		margin: auto;
+	}
+
+	#checkbox {
+		width: auto;
+		display: inline-block;
+		margin: auto;
+	}
+	
+
+	.SubmitMail {
+		width: auto;
+		font-size: 18pt;
+		border-style: solid;
+		letter-spacing: 4px;
+		margin: auto;;
+		padding: 15px;
+	}
+
+
+	#notification {
+		color: red;
+		font-size: 18px;
+		padding: 10px;
+		text-align: center;
+		background: transparent;
+	}
+
+
+	/* _______________More info_______________*/
+	.moreContactInformation {
+		display: block;
+		margin: auto;
+		width: 100%;
+
+	}
+
+
+	.moreContactInformation div {
+		float: none;
+		width: 100%;
+		padding: 0px;
+		height: auto;
+		margin: auto;
+		margin-bottom: 50px;
+	}
+
+	.contactInformation {
+		margin: 0px;
+		padding: 0px
+	}
+	
+	.contactInformation p {
+		text-align: center;
+		padding: 5px;
+		margin: 0px;
+		font-size: 18px;
+	}
+
+	.socialMediaIcons img {
+		border: thick solid transparent;
+		border-radius: 100px;
+		width: auto;
+	}
+
+	.hqMap iframe {
+		width: 100%;
+		margin: 0px;
+		max-width: 500px;
+	}
+	
+	
+	
+	/* _______________FUTURE_______________*/
+
+	/* _______________ Future Plans _______________*/
+
+	/* _______________Timeline_______________*/
+
+	.basicTimeline {
+		width: 100%;
+		padding: 20px 0;
+		margin: 0px;
+	}
+
+
+	.basicTimeline:before {
+		content: none;
+	}
+	
+
+	.basicTimeline h3 {
+		letter-spacing: 4px;
+		font-weight: 100;
+		font-size: 18px;
+	}
+
+	.timelineTextArea {
+		width: 100%;
+		display: block;
+		margin: auto;
+	}
+
+	.timelineTextArea p {
+		font-size: 16px;
+	}
+
+
+
+	.timelineTextAreaRight {
+		float: none;
+	}
+
+	.timelineTextAreaLeft {
+		float: none;
+
+	}
+
+
+	.timeline-content {
+		width: 100%;
+		padding: 4px;
+	}
+
+
+	.timelineImg {
+		display: block;
+		text-align: center;
+	}
+
+	.timelineImg img {
+		max-width: 80%;
+		border-radius: 40px;
+		margin-bottom: 20px;
+	}
+
+	/* _______________ Future Launches _______________*/
+
+	.centerContentDiv {
+		width: 100%;
+		margin: auto;
+		margin-bottom: 50px;
+	}
+
+
+	#futureLaunchesTable {
+		margin: 0px;
+		padding: 0px;
+		border: rgb(255, 255, 255, 1) solid thin;
+		border-radius: 20px;
+		background-color: rgb(225,225,225, 0.07);
+		font-size: 16px;
+		width: 100%;
+	}
+
+	#futureLaunchesTable td{
+		padding: 0px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		word-wrap: break-word;
+		
+	}
+
+	
+	/* _______________HISTORY_______________*/
+
+	/* _______________Timeline_______________*/
+
+	#basicTimeline {
+		width: 100%;
+		padding: 0px;
+		margin: auto;
+		position: relative;
+		overflow: hidden;
+		
+	}
+
+	#basicTimeline:before {
+		content: none;
+	}
+	
+
+
+	#basicTimeline h2 {
+		letter-spacing: 4px;
+		font-weight: 100;
+	}
+
+	.timelineTextArea2 {
+		width: 50%;
+		clear: both;
+		
+	}
+
+	.timelineTextArea2 p {
+		font-size: 16px;
+		font-weight: 300;
+	}
+
+	.timelineTextArea2 h4 {
+		letter-spacing: 6px;
+	}
+
+	.timelineTextArea2 p, h2, h4 {
+		margin: 0px;
+		padding: 7px;
+	}
+
+	.timelineTextAreaRight2:nth-child(odd) {
+		float: none;
+		direction: ltr;
+		text-align: right;
+		width: 100%;
+		
+	}
+
+
+	.timelineTextAreaRight2:nth-child(even) {
+		float: none;
+		width: 100%;
+		text-align: left;
+		
+	}
+
+	.timeline-content2 {
+		width: 100%;
+		padding: 4px;
+		margin: auto;
+		
+	}
+
+
+	.timeline-content2 ul {
+		list-style-type: none;
+		display: block;
+		margin: auto;
+		padding: 20px 0px 30px 0px;
+		text-align: center;
+		max-width: 150px;
+	}
+
+
+	.timeline-content2 a {
+		background-color: #550000;
+		font-weight: 300;
+		font-size: 14pt;
+		padding: 5px;
+		border: thin;
+		border-style: solid;
+		letter-spacing: 2px;
+		margin: 3px;
+		display: block;
+		
+	}
+
+	.timeline-content2 a:hover {
+		background-color: rgb(255, 255, 255, 1);
+		box-shadow: none;
+		color: rgb(0, 0, 0, 1.0);
+		font-weight: 300;
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* ______FOOTER______________________*/
+
+	.footer {
+		display: block;
+		width: 100%;
+	}
+	
+	.footerlinks {
+		padding: 5px;
+		margin: 5px;	
+	}
+	
+	.socialmedia {
+		font-weight: 300;
+	}
+	
+	.copyright {
+		font-size: 14px;
+	}
 	
 	
 }
