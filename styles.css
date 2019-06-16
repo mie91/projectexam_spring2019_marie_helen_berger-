@@ -14,6 +14,8 @@ Gray: rgb(31,34,40,1);
 Dark Gray: rgb(20,20,20,1);
 Even Darker Gray: rgb(5,5,5,1);
 
+Dark Wine Red: rgb(85,0,0, 1);
+
 
 
 
@@ -32,7 +34,7 @@ OTHER:
 
 header {
 	width: 100%;
-	
+
 }
 
 /* ______NavLinks ______*/
@@ -80,7 +82,7 @@ header {
 	margin: 5px;
 	border: rgb(255, 255, 255, 1) solid thin;
 	margin-top: 20px;
-	
+
 }
 
 .dropDownLink {
@@ -89,7 +91,7 @@ header {
 
 #activeNav {
 	text-decoration: underline;
-	background-color: rgb(255, 255, 255, 0.4);
+	background-color: rgb(85, 0, 0, 1);
 }
 
 #activeNav:hover {
@@ -151,7 +153,6 @@ header {
 	display: block;
 }
 
-
 /* ______HeaderLogo ______*/
 
 .logoSection {
@@ -182,11 +183,8 @@ body {
 	color: rgb(255, 255, 255, 1);
 	background-color: rgb(31, 34, 40, 1);
 	align-items: center;
-	
+
 }
-
-
-
 
 .content-wrap {
 	max-width: 100%;
@@ -196,7 +194,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	box-shadow: 0px 10px 18px 6px rgb(0, 0, 0, 0.7);
-	background: linear-gradient(to bottom, rgba(0,0,0,0.9) 0%,rgba(0,0,0,0) 100%);
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
 .col1,
@@ -217,7 +215,6 @@ body {
 .col1 {
 	margin: 60px 20px 60px 20px;
 	padding: 20px;
-
 }
 
 .col2 {
@@ -225,8 +222,6 @@ body {
 	margin: 60px 20px 60px 20px;
 	padding: 20px;
 	float: right;
-
-
 }
 
 
@@ -242,7 +237,7 @@ body {
 .basicButtonLink a {
 	font-family: 'Roboto', sans-serif;
 	color: rgb(255, 255, 255, 0.8);
-	background-color: rgb(255, 255, 255, 0.1);
+	background-color: rgb(85, 0, 0, 1);
 	font-weight: 300;
 	font-size: 12pt;
 	padding: 10px;
@@ -253,7 +248,6 @@ body {
 	letter-spacing: 4px;
 	text-align: center;
 	box-shadow: 0px 5px 9px 3px rgb(0, 0, 0, 0.4);
-
 }
 
 
@@ -262,10 +256,8 @@ body {
 	color: rgb(0, 0, 0, 1.0);
 	font-weight: 300;
 	box-shadow: none;
-	
+
 }
-
-
 
 .generalTextBox {
 	background-color: rgb(255, 255, 255, 0.1);
@@ -274,10 +266,7 @@ body {
 	border-radius: 10px;
 	margin: auto;
 	width: auto;
-	
 }
-
-
 
 .textArea {
 	display: flex;
@@ -286,14 +275,9 @@ body {
 	margin: 0px 30px 0 30px;
 }
 
-
-
 /* ______Collapsibles ______*/
 .col3 {
-
 	width: 100%;
-
-
 }
 
 .collapsible {
@@ -304,7 +288,6 @@ body {
 	width: 60px;
 	text-align: center;
 	border-radius: 10px;
-
 	display: block;
 	margin: auto;
 	margin-bottom: 50px;
@@ -312,37 +295,28 @@ body {
 	border: rgb(0, 0, 0, 0.5) solid thin;
 }
 
-
-
-
-
-
 .collapsible:hover {
 	background-color: rgb(255, 255, 255, 0.5);
 	box-shadow: none;
 }
 
-
-
 .collapseContent {
-	padding: 0 18px;
+	padding: 0px;
 	display: none;
 	overflow: hidden;
 	font-family: 'Roboto', sans-serif;
 	color: rgb(255, 255, 255, 1);
-	background-color: rgb(0,0,0,0.3);
+	background-color: rgb(0, 0, 0, 0.3);
 	font-weight: 300;
 	letter-spacing: 2px;
 	border-top: rgb(255, 255, 255, 0.5) solid thin;
-	
+
 }
 
 
 .collapsibleHeader {
 	text-align: center;
 }
-
-
 
 
 /* ______Parallaxes ______*/
@@ -455,7 +429,7 @@ body {
 #companyInfo a {
 	font-family: 'Roboto', sans-serif;
 	color: rgb(255, 255, 255, 0.8);
-	background-color: rgb(255, 255, 255, 0.1);
+	background-color: rgb(85, 0, 0, 1);
 	font-weight: 400;
 	font-size: 12pt;
 	padding: 10px;
@@ -481,7 +455,7 @@ body {
 .newsLetter {
 	margin: 40px;
 	text-align: center;
-	
+
 }
 
 .newsLetter input {
@@ -496,7 +470,7 @@ body {
 	width: auto;
 	font-family: 'Roboto', sans-serif;
 	color: rgb(255, 255, 255, 0.8);
-	background-color: rgb(255, 255, 255, 0.1);
+	background-color: rgb(85, 0, 0, 1);
 	font-weight: 300;
 	font-size: 12pt;
 	text-decoration: none;
@@ -514,12 +488,11 @@ body {
 	color: rgb(0, 0, 0, 1.0);
 	font-weight: 600;
 	box-shadow: none;
-	
 }
 
 #newsLetterNotification {
 	color: red;
-	font-size: 24px;
+	font-size: 18px;
 }
 
 
@@ -572,7 +545,7 @@ body {
 }
 
 #nextLaunchCountdown p {
-	display: inline;
+	display: block;
 	margin: 20px;
 	border: rgb(255, 255, 255, 0.5) solid thin;
 	border-radius: 20px;
@@ -595,14 +568,12 @@ body {
 
 /* ______Rocket information ______*/
 
-#rocketInformation  {
+#rocketInformation {
 	display: inline-flex;
 	flex-direction: row;
 	margin: 20px;
 	color: rgb(255, 255, 255, 1);
-
 }
-
 
 .rocketTable {
 	border-right: rgb(255, 255, 255, 0.5) dotted medium;
@@ -620,7 +591,6 @@ body {
 	padding: 8px;
 	margin: 0 10px 20px 0px;
 	border: rgb(255, 255, 255, 0.2) solid thin;
-	
 }
 
 .rocketTable p {
@@ -640,24 +610,23 @@ body {
 /* ______Launch Pad Information ______*/
 
 
-#launchPadsInformation  {
-	display: inline-block;
+#launchPadsInformation #launchPadsInformation div {
+	display: block;
 	width: 50%;
-	margin-left: 25%;
-	
+	margin: auto;
+
 }
 
 .padTable {
 	border-bottom: rgb(255, 255, 255, 0.5) dotted medium;
 	margin: 25px;
-	
 }
 
 
 .padTable a {
 	font-family: 'Roboto', sans-serif;
 	color: rgb(255, 255, 255, 0.8);
-	background-color: rgb(255, 255, 255, 0.1);
+	background-color: rgb(85, 0, 0, 1);
 	font-weight: 300;
 	font-size: 12pt;
 	padding: 10px;
@@ -668,9 +637,6 @@ body {
 	letter-spacing: 4px;
 	text-align: center;
 	box-shadow: 0px 5px 9px 3px rgb(0, 0, 0, 0.4);
-	
-	
-	
 }
 
 
@@ -691,7 +657,6 @@ body {
 	padding: 8px;
 	margin: 0 10px 20px 0px;
 	border: rgb(255, 255, 255, 0.2) solid thin;
-
 }
 
 .padTable p {
@@ -714,13 +679,10 @@ body {
 .ytVideo {
 	border: rgb(255, 255, 255, 1) solid thin;
 	box-shadow: 0px 10px 18px 6px rgb(0, 0, 0, 0.7);
-	
 }
 
 .ytVideo iframe {
 	margin: 20px;
-	
-	
 }
 
 
@@ -746,7 +708,7 @@ body {
 	width: 2px;
 	height: 100%;
 	background: white;
-	z-index: 1;	
+	z-index: 1;
 }
 
 .basicTimeline h3 {
@@ -767,7 +729,9 @@ body {
 	font-size: 14px;
 }
 
-.timelineTextArea p, h2, h3 {
+.timelineTextArea p,
+h2,
+h3 {
 	padding: 5px;
 }
 
@@ -777,15 +741,17 @@ body {
 
 .timelineTextAreaLeft {
 	float: left;
-	
 }
-
 
 .timeline-content {
 	width: 100%;
 	padding: 4px;
 }
 
+.timeline-content h2 {
+	background-color: rgb(255, 255, 255, 0.07);
+
+}
 
 .timelineImg {
 	display: block;
@@ -800,31 +766,34 @@ body {
 
 /* _______________ Future Launches _______________*/
 
-.centerContentDiv {
-	
-	max-width: 80vw;
+.textArea3 {
+	display: block;
+	text-align: center;
 	margin: auto;
 	margin-bottom: 50px;
 }
 
+.centerContentDiv {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
 .centerContentDiv h2 {
 	text-align: center;
-	background-color: rgb(225,225,225 0.5);
+	background-color: rgb(225, 225, 225 0.5);
 }
 
 
 #futureLaunchesTable {
-	margin: 0px;
 	padding: 0px;
 	border: rgb(255, 255, 255, 1) solid thin;
 	border-radius: 20px;
-	background-color: rgb(225,225,225, 0.07);
+	background-color: rgb(225, 225, 225, 0.07);
+
 }
 
 
-
-#futureLaunchesTable td{
-	
+#futureLaunchesTable td {
 	padding: 15px;
 	font-weight: 300;
 	border-bottom: rgb(255, 255, 255, 0.3) solid thin;
@@ -841,24 +810,40 @@ body {
 	background-color: rgb(255, 255, 255, 0.3);
 }
 
-
-
 /* _______________CONTACT_______________*/
 
 /* _______________FORM_______________*/
 
-.contactFormDiv {
-	margin: auto;
-	width: auto;
-	padding: 10px;
+.textArea2 {
 	display: block;
-	text-align: ce
-	
+	margin: auto;
+	margin-bottom: 40px;
+	width: 50%;
 }
 
-.contactFormDiv form {
-	
+.textArea2 h2 {
+	text-align: center;
 }
+
+.contactFormDiv {
+	padding: 10px;
+
+}
+
+.contactFormDiv fieldset {
+	text-align: center;
+}
+
+.contactFormDiv input,
+textarea {
+	display: block;
+	margin: auto;
+}
+
+.contactFormDiv p {
+	text-align: center;
+}
+
 
 #inputName {
 	width: 50%;
@@ -867,6 +852,7 @@ body {
 	border: rgb(0, 0, 0, 1) solid thin;
 	font-size: 18px;
 }
+
 #emailInput {
 	width: 50%;
 	display: block;
@@ -887,12 +873,15 @@ body {
 
 #checkbox {
 	width: 2%;
-	display: inline;
+	margin: 2px;
+	display: inline-block;
+
+
 }
 
 .contactFormDiv fieldset {
 	box-shadow: 0px 10px 18px 6px rgb(0, 0, 0, 0.7);
-	background: linear-gradient(to right, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%);
 	border: none;
 }
 
@@ -901,7 +890,7 @@ body {
 	width: auto;
 	font-family: 'Roboto', sans-serif;
 	color: rgb(255, 255, 255, 0.8);
-	background-color: rgb(255, 255, 255, 0.1);
+	background-color: rgb(85, 0, 0, 1);
 	font-weight: 300;
 	font-size: 12pt;
 	text-decoration: none;
@@ -926,10 +915,11 @@ body {
 }
 
 #notification {
-	color: darkred;
-	font-size: 24px;
-	background: linear-gradient(to right, rgba(0,0,0,0.45) 0%,rgba(0,0,0,0) 100%);
+	color: red;
+	font-size: 18px;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0) 100%);
 	padding: 5px;
+	text-align: center;
 }
 
 
@@ -937,6 +927,7 @@ body {
 .moreContactInformation {
 	text-align: center;
 	
+
 }
 
 .moreContactInformation h3 {
@@ -953,7 +944,7 @@ body {
 	height: 300px;
 	margin: auto;
 	margin-bottom: 50px;
-	
+
 }
 
 .contactInformation p {
@@ -998,7 +989,7 @@ body {
 	left: 50%;
 	height: 100%;
 	background: white;
-	z-index: 1;	
+	z-index: 1;
 	border: solid thin;
 }
 
@@ -1021,11 +1012,22 @@ body {
 	font-weight: 300;
 }
 
+.timelineTextArea2 h2 {
+	letter-spacing: 4px;
+	font-weight: 300;
+	font-size: 22px;
+	background: linear-gradient(90deg, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0.0) 100%);
+	margin: 10px;
+	width: 100%;
+}
+
 .timelineTextArea2 h4 {
 	letter-spacing: 6px;
 }
 
-.timelineTextArea2 p, h2, h4 {
+.timelineTextArea2 p,
+h2,
+h4 {
 	margin: 0px;
 	padding: 7px;
 }
@@ -1036,7 +1038,7 @@ body {
 	text-align: right;
 	background-color: rgb(255, 255, 255, 0.1);
 	margin-top: 20px;
-		
+
 }
 
 
@@ -1047,8 +1049,6 @@ body {
 	background-color: rgb(255, 255, 255, 0.1);
 	margin-top: 20px;
 }
-
-
 
 
 .timeline-content2 {
@@ -1068,7 +1068,7 @@ body {
 .timeline-content2 a {
 	font-family: 'Roboto', sans-serif;
 	color: rgb(255, 255, 255, 0.8);
-	background-color: #550000;
+	background-color: rgb(85, 0, 0, 1);
 	font-weight: 300;
 	font-size: 14pt;
 	padding: 10px;
@@ -1098,7 +1098,7 @@ footer {
 	border-top-width: thin;
 	text-align: center;
 	padding: 20px;
-
+	box-shadow: 0px 10px 18px 6px rgb(0, 0, 0, 0.7);
 }
 
 .footerlinks {
@@ -1111,7 +1111,7 @@ footer {
 	border: thin;
 	border-style: solid;
 	box-shadow: 0px 10px 18px 6px rgb(0, 0, 0, 0.7);
-	
+	background-color: rgb(85, 0, 0, 1);
 }
 
 .footerlinks:hover {
@@ -1119,17 +1119,14 @@ footer {
 	color: rgb(0, 0, 0, 1);
 	font-weight: 300;
 	box-shadow: none;
-
 }
 
 .footerlinksContainer {
 	margin: 10px;
-	
 }
 
 .footerlinksContainer a {
 	margin: 10px;
-	
 }
 
 
@@ -1153,7 +1150,6 @@ footer {
 	letter-spacing: 4px;
 }
 
-
 .copyright {
 	margin-top: 50px;
 	font-size: 12px;
@@ -1161,196 +1157,254 @@ footer {
 	font-weight: 100;
 }
 
-
-
-
-
 .smi:hover {
 	background-color: rgb(255, 255, 255, 1);
 	color: rgb(0, 0, 0, 1.0);
 }
 
+/* _______________________________________________________________________________________________________________MEDIA QUERIES _______________*/
 
 
+/* _______________________________________________________________________________________________________________MEDIA QUERIES _______________*/
 
 
+/* _______________________________________________________________________________________________________________MEDIA QUERIES _______________*/
 
 
+/* _______________BIGGER THAN TABLETS _______________*/
+
+@media screen and (min-width: 1440px) and (max-width: 1500px) {
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* _______________MOBILE _______________*/
-@media only screen and (max-width: 1440px) {
-	
-	
-	
-	.launchVideo iframe {
-		width:450px;
+	.nextLaunchMap iframe {
+		width: 100%;
+		margin: 0px;
 	}
-	
 }
 
-@media only screen and (max-width: 900px) {
-	
-	.content-wrap p {
-		font-size: 14px;
-	}
-	.parallax1,
-	.parallax2,
-	.parallax3,
-	.parallax4,
-	.parallax5,
-	.parallax6 {}
 
-	.mainHeader {
-		max-width: 90vw;
-		margin: auto;
+
+@media screen and (min-width: 769px) and (max-width: 1439px) {
+
+	/* _______________Current _______________*/
+
+	/* _______________COMPANY INFO _______________*/
+
+	#companyInfo a {
+		display: inline-block;
 
 	}
 
 
-	.textArea {
-		display: flex;
-		flex-direction: column;
+	/* _______________LAUNCHES _______________*/
+	#nextLaunchCountdown p {
+		display: block;
 		margin: 10px;
 		padding: 10px;
-
 	}
 
-	.textArea h2 {
-		font-size: 16px;
+	.nextLaunchMap {
+		text-align: center;
+		margin: 20px;
+		padding: 0px;
 	}
 
-	.col1,
-	.col2 {
-		width: 80%
+	.nextLaunchMap iframe {
+		border: rgb(255, 255, 255, 1) solid thin;
+		box-shadow: 0px 10px 18px 6px rgb(0, 0, 0, 0.7);
+		max-width: 100%
 	}
 
-	footer {
+	/* _______________LAUNCH PADS _______________*/
+
+	.launchVideo iframe {
+		max-width: 90%;
+	}
+
+	/* ______CONTACT ________________________________________*/
+	/* ______The Form _______________________*/
+
+	.contactFormDiv {
+		display: block;
 		width: 100%;
-		padding: 0;
-		padding-bottom: 10px;
+		padding: 0px;
 	}
 
-	body {
-		max-width: 90vw;
+
+	.contactFormDiv p {
+		padding: 3px;
+		margin: 0px;
+	}
+
+
+	.contactFormDiv div {
+		margin: 0px;
+		padding: 0px;
+		width: 100%;
+	}
+
+	.contactFormDiv label {
+		font-size: 18px;
+		display: block;
+		text-align: left;
+		width: 80%;
+		margin: auto;
+	}
+
+	#inputName {
+		width: 80%;
+		padding: 5px;
+		margin: auto;
+	}
+
+	#emailInput {
+		width: 80%;
+		padding: 5px;
+		margin: auto;
+	}
+
+	#textInput {
+		width: 80%;
+		height: 50%px;
+		padding: 5px;
+		margin: auto;
+	}
+
+	#checkbox {
+		width: auto;
+		display: inline-block;
 		margin: auto;
 	}
 
 
+	.SubmitMail {
+		width: auto;
+		font-size: 18pt;
+		border-style: solid;
+		letter-spacing: 4px;
+		margin: auto;
+		padding: 10px;
+		margin-bottom: 15px;
+	}
+
+
+	#notification {
+		color: red;
+		font-size: 18px;
+		padding: 10px;
+		text-align: center;
+		background: transparent;
+	}
+
+
+	/* _______________More info_______________*/
+
+	.moreContactInformation {
+		display: block;
+		margin: auto;
+		width: 100%;
+	}
+
+
+	.moreContactInformation div {
+		float: none;
+		width: 100%;
+		padding: 0px;
+		height: auto;
+		margin: auto;
+		margin-bottom: 50px;
+	}
+
+	.contactInformation {
+		margin: 0px;
+		padding: 0px
+	}
+
+	.contactInformation p {
+		text-align: center;
+		padding: 5px;
+		margin: 0px;
+		font-size: 18px;
+	}
+
+	.socialMediaIcons img {
+		border: thick solid transparent;
+		border-radius: 100px;
+		width: auto;
+	}
+
+	.hqMap iframe {
+		width: 100%;
+		margin: 0px;
+		max-width: 500px;
+	}
+
+
+/* ______________FUTURE_______________*/
+
+/* ______________Future Launches______________*/
+	.centerContentDiv {
+		display: block;
+		margin-bottom: 50px;
+		margin: auto;
+	}
+
 }
-	
+
+
+/* ______________TABLETS AND PHONES _______________*/
+
 @media screen and (max-width: 768px) {
-	
-	
+
+
 	.thumbnailGallery {
 		width: 50%;
 		margin: 6px 0;
 	}
 
-	table, thead, tbody, th, td, tr {
-		display: block;
-		
-	}
-	
-	#futureLaunchesTable {
-		border: none;
-		background: transparent;
-		
-	}
-	
-	thead tr {
-		position: absolute;
-		display: none;
-		
-	}
-	
-	tr { 
-		border: rgb(255, 255, 255, 1) solid thin;
-		border-radius: 20px;
-		margin-bottom: 20px;
-	}
-	
-	td {
-		position: relative;
-		padding-left: 200px;
-		margin-left: 150px;
-	}
-	td:before {
-		position: absolute;
-		top: 12px;
-		left: 6px;
-		width: 200px;
-		padding-right: 40px;
-		white-space: nowrap;
-		margin-left: -150px;
-	}
-	
-	
-	td:nth-of-type(1):before { content: "Mission Name"; }
-	td:nth-of-type(2):before { content: "Launch Year"; }
-	td:nth-of-type(3):before { content: "Launch Date(UTC)"; }
-	td:nth-of-type(4):before { content: "Rocket Name"; }
-	td:nth-of-type(5):before { content: "Location";}
-			
-	}	
-	
+	/* ______RIGHT NOW ________________________________________*/
+	/* ______COMPANY _______________________*/
 
 
+	/* ______FUTURE ________________________________________*/
+	/* ______Launch Table _______________________*/
 
-@media only screen and (max-width: 900px) {
-	
+
+}
+
+
+@media only screen and (max-width: 1023px) {
+
 	/* ______HEADER______________________*/
-	
+
 	.mainHeader {
-		width: 100%;
 		padding-bottom: 5px;
 		text-align: center;
 		display: block;
+		max-width: 100%;
 	}
-	
+
 
 	.logoSection {
 		margin: 0px;
 		padding: 3px;
 	}
-	
-	
+
+
 	.navbar {
 		overflow: hidden;
 		width: 90%;
 		margin-left: auto;
-		
+
 	}
-	
+
 
 	.navbar a {
 		font-size: 18px;
 		text-align: center;
 		padding: 2px;
 		margin-top: 2px;
-		
+
 	}
 
 	.dropDownLink .dropDownName {
@@ -1371,8 +1425,8 @@ footer {
 		text-align: center;
 		margin: 2px;
 	}
-	
-	
+
+
 	/* ______Parallaxes ______*/
 
 	.parallax1,
@@ -1395,7 +1449,7 @@ footer {
 	.parallax1 {
 		background-image: url("images/resized/welcomepar.jpg");
 		min-height: 500px;
-		
+
 	}
 
 	.parallax2 {
@@ -1437,63 +1491,81 @@ footer {
 		background-image: url("");
 		min-height: 400px;
 	}
-	
-	
-	
+
+
 	/* ______COMMON ________________________________________*/
-	
-	
+
+
 	body {
 		width: auto;
 	}
-	
-	
-	.content-wrap {
-		
+
+	.textArea {
+		display: flex;
+		flex-direction: column;
+		margin: 10px;
+		padding: 10px;
+
 	}
-	
+
+	.textArea h2 {
+		font-size: 16px;
+	}
+
+	.col1,
+	.col2 {
+		width: 80%
+	}
+
+
 	.parallaxheader {
 		text-align: center;
 	}
-	
+
 	.parHeader {
 		padding: 0px;
 		margin: auto;
 	}
-	
-	.col1, .col2, .col3 {
+
+	.col1,
+	.col2,
+	.col3 {
 		margin: auto;
 		padding: 0px;
-		text-align: center;
+		text-align: left;
 	}
-	
+
 	.generalTextBox {
 		padding: 5px;
 		width: 100%;
 		margin-bottom: 5px;
 	}
-	
+
+	.basicLink {
+		text-align: center;
+		font-size: 14px;
+	}
+
+	.textArea h2 {
+		text-align: center;
+	}
+
 	.textArea {
 		padding: 0px;
 		margin: 2px;
 	}
-	
-	.collapseContent {
-		
-		
-		
-	}
-	
+
+
 	.collapsible {
 		width: 5%;
 	}
-	
+
 	.collapsibleHeader {
 		font-size: 18px;
 		margin: 0px;
 	}
-	
-	
+
+
 	.thumbnailGallery {
 		width: 100%;
 	}
@@ -1504,63 +1576,68 @@ footer {
 		font-size: 14px;
 		width: 100%
 	}
-	
-	.collapsibleHeader  {
+
+	.collapsibleHeader {
 		padding: 15px;
 	}
-/* ______RIGHT NOW ________________________________________*/
-/* ______COMPANY _______________________*/
+
+	/* ______RIGHT NOW ________________________________________*/
+	/* ______COMPANY _______________________*/
 	#companyInfo {
 		padding: 3px;
 		width: 100%;
 		text-align: center;
-		
-	}	
-	
-	#companyInfo ul {
-	list-style-type: none;
-	display: block;
-	padding: 5px;
 	}
-	
+
+	#companyInfo ul {
+		list-style-type: none;
+		display: block;
+		padding: 5px;
+	}
+
 	#companyInfo li {
-	margin: 20px;
-	text-align: center;
+		margin: 20px;
+		text-align: center;
 	}
 
 
 	#companyInfo a {
-	font-weight: 300;
-	font-size: 12pt;
-	padding: 5px;
-	margin: 0px;
-	
+		font-weight: 300;
+		font-size: 12pt;
+		padding: 5px;
+		margin: 0px;
 	}
 
 	.newsLetter h2 {
 		font-size: 20px;
 	}
-	
-	.newsLetter  {
+
+	.newsLetter {
 		text-align: center;
 		margin: auto;
 		padding: 0px;
 	}
-	
+
 	.newsLetter input {
 		width: 70%
 	}
-/* ______NEXT LAUNCH_______________________*/
+
+	#newsletterbutton {
+		margin-bottom: 20px;
+	}
+
+
+
+	/* ______NEXT LAUNCH_______________________*/
 
 	.clearfix:after {
-	content: "";
-	display: table;
-	clear: both;
+		content: "";
+		display: table;
+		clear: both;
 	}
 
 
 	#nextLaunchCountdown {
-
 		text-align: center;
 		border: rgb(255, 255, 255, 0.5) solid thin;
 		border-radius: 20px;
@@ -1607,91 +1684,120 @@ footer {
 		margin: 0px;
 		text-align: left;
 	}
-	
+
 	.rocketTable {
 		width: 100%;
 		margin: 0px;
 		padding: 3px;
 	}
-	
+
 	.rocketTable h3 {
 		text-align: center;
 	}
 
 
 	/* ______Launch Pads_______________________*/
-	
+
 	.launchVideo {
 		padding: 0px;
 		margin: 0px;
 		width: 100%;
 	}
-	
+
 	.launchVideo iframe {
 		width: 90%;
-		height: 50%;
 		padding: 5px;
 		border: none;
 		box-shadow: none;
 	}
-	
+
 	.basicButtonLink a {
 		font-size: 14px;
 		padding: 5px;
 	}
-	
+
 	.basicButtonLink {
 		margin-top: 10px;
 	}
-	
-	
+
+
 	#launchPadsInformation {
 		display: block;
 		margin: 0px;
 		width: 100%;
 		text-align: left;
 	}
-	
+
 	#launchPadsInformation a {
 		padding: 5px;
 		text-align: center;
 
 	}
-	
+
 	.padTable {
 		margin: 0px;
 		padding: 5px;
 	}
-	
+
 	.padTable h3 {
 		text-align: center;
 		margin-bottom: 5px;
 		margin-top: 5px;
 	}
-	
-	
-	/* ______CONTACT ________________________________________*/
-	/* ______The Form _______________________*/
-	
+
+	.basicButtonLink {
+		text-align: center;
+	}
+
+
+
+	/* _______________FUTURE_______________*/
+
+	/* _______________ Future Plans _______________*/
+
+
+
+
+
+	/* _______________CONTACT_______________*/
+
+	/* _______________ Form _______________*/
+
+
+
+	.textArea2 {
+		display: block;
+		margin: none;
+		margin-bottom: 20px;
+		width: 100%;
+	}
+
+	.textArea2 h2 {
+		text-align: center;
+		font-size: 24px;
+	}
+
 	.contactFormDiv {
 		display: block;
 		width: 100%;
 		padding: 0px;
 	}
-	
-	
+
+
 	.contactFormDiv p {
-		padding: 3px;
+		padding: 7px;
 		margin: 0px;
+		font-size: 16px;
+		text-align: center;
 	}
-	
+
 
 	.contactFormDiv div {
 		margin: 0px;
 		padding: 0px;
 		width: 100%;
 	}
-	
+
 	.contactFormDiv label {
 		font-size: 18px;
 		display: block;
@@ -1705,6 +1811,7 @@ footer {
 		padding: 5px;
 		margin: auto;
 	}
+
 	#emailInput {
 		width: 80%;
 		padding: 5px;
@@ -1722,16 +1829,19 @@ footer {
 		width: auto;
 		display: inline-block;
 		margin: auto;
+		margin-top: 10px;
 	}
-	
+
 
 	.SubmitMail {
 		width: auto;
 		font-size: 18pt;
 		border-style: solid;
 		letter-spacing: 4px;
-		margin: auto;;
-		padding: 15px;
+		margin: auto;
+		;
+		padding: 10px;
+		margin-bottom: 15px;
 	}
 
 
@@ -1745,11 +1855,12 @@ footer {
 
 
 	/* _______________More info_______________*/
+
+
 	.moreContactInformation {
 		display: block;
 		margin: auto;
 		width: 100%;
-
 	}
 
 
@@ -1766,7 +1877,7 @@ footer {
 		margin: 0px;
 		padding: 0px
 	}
-	
+
 	.contactInformation p {
 		text-align: center;
 		padding: 5px;
@@ -1785,9 +1896,245 @@ footer {
 		margin: 0px;
 		max-width: 500px;
 	}
-	
-	
-	
+
+
+
+	/* _______________ Future Launches _______________*/
+
+	.centerContentDiv {
+		width: 100%;
+		margin: auto;
+		margin-bottom: 50px;
+	}
+
+
+	#futureLaunchesTable {
+		margin: 0px;
+		padding: 0px;
+		border: none;
+		border-radius: 20px;
+		background-color: transparent;
+		font-size: 16px;
+		width: 100%;
+	}
+
+	#futureLaunchesTable td {
+		padding: 0px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		word-wrap: break-word;
+
+	}
+
+
+	#futureLaunchesTable tr {
+		background-color: rgb(255, 255, 255, 0.1)
+	}
+
+
+	table, thead, tbody, th, td, tr {
+		display: block;
+	}
+
+	#futureLaunchesTable {
+		border: none;
+		background: transparent;
+	}
+
+	thead tr {
+		position: absolute;
+		display: none;
+	}
+
+	tr {
+		border: rgb(255, 255, 255, 1) solid thin;
+		border-radius: 20px;
+		margin-bottom: 20px;
+	}
+
+	td {
+		position: relative;
+		padding-left: 200px;
+		margin-left: 150px;
+	}
+
+	td:before {
+		position: absolute;
+		top: 12px;
+		left: 6px;
+		width: 200px;
+		padding-right: 40px;
+		white-space: nowrap;
+		margin-left: -150px;
+		text-align: left;
+	}
+
+
+	td:nth-of-type(1):before {
+		content: "Mission Name";
+	}
+
+	td:nth-of-type(2):before {
+		content: "Launch Year";
+	}
+
+	td:nth-of-type(3):before {
+		content: "Launch Date(UTC)";
+	}
+
+	td:nth-of-type(4):before {
+		content: "Rocket Name";
+	}
+
+	td:nth-of-type(5):before {
+		content: "Location";
+	}
+
+
+	/* ______FOOTER______________________*/
+
+	footer {
+		width: 100%;
+		padding: 0;
+		padding-bottom: 10px;
+	}
+
+	.footer {
+		display: block;
+		width: 100%;
+	}
+
+	.footerlinks {
+		padding: 5px;
+		margin: 5px;
+	}
+
+	.socialmedia {
+		font-weight: 300;
+	}
+
+	.copyright {
+		font-size: 14px;
+	}
+
+
+}
+
+
+@media screen and (max-width: 650px) {
+
+	/* _______________HISTORY_______________*/
+
+	/* _______________Timeline_______________*/
+
+	#basicTimeline {
+		width: 100%;
+		padding: 0px;
+		margin: auto;
+		position: relative;
+		overflow: hidden;
+	}
+
+	#basicTimeline:before {
+		content: none;
+	}
+
+	#basicTimeline h2 {
+		letter-spacing: 4px;
+		font-weight: 100;
+	}
+
+	.timelineTextArea2 {
+		width: 50%;
+		clear: both;
+		border: solid thin;
+		border-color: rgb(255, 255, 255 0.5);
+		border-radius: 10px;
+	}
+
+	.timelineTextArea2 p, h2, h4 {
+		margin: 0px;
+		padding: 7px;
+	}
+
+	.timelineTextArea2 p {
+		font-size: 16px;
+		font-weight: 300;
+	}
+
+	.timelineTextArea2 h2 {
+		letter-spacing: 4px;
+		font-weight: 300;
+		font-size: 18px;
+		background: linear-gradient(90deg, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0.0) 100%);
+		margin: 10px;
+		width: 90%;
+		text-align: center;
+	}
+
+	.timelineTextArea2 h4 {
+		letter-spacing: 6px;
+		font-weight: 300;
+		font-size: 16px;
+	}
+
+	.timelineTextAreaRight2 {
+		margin-bottom: 20px;
+	}
+
+	.timelineTextAreaRight2:nth-child(odd) {
+		float: none;
+		text-align: left;
+		width: 99%;
+		background-color: rgb(0, 0, 0, 0.3);
+		direction: ltr;
+	}
+
+
+	.timelineTextAreaRight2:nth-child(even) {
+		float: none;
+		width: 99%;
+		text-align: left;
+		direction: ltr;
+	}
+
+	.timeline-content2 {
+		width: 90%;
+		padding: 4px;
+		margin: auto;
+	}
+
+
+	.timeline-content2 ul {
+		list-style-type: none;
+		display: block;
+		margin: auto;
+		padding: 20px 0px 30px 0px;
+		text-align: center;
+		max-width: 150px;
+	}
+
+
+	.timeline-content2 a {
+		background-color: rgb(85, 0, 0, 1);
+		font-weight: 300;
+		font-size: 14pt;
+		padding: 5px;
+		border: thin;
+		border-style: solid;
+		letter-spacing: 2px;
+		margin: 5px;
+		display: block;
+	}
+
+	.timeline-content2 a:hover {
+		background-color: rgb(255, 255, 255, 1);
+		box-shadow: none;
+		color: rgb(0, 0, 0, 1.0);
+		font-weight: 300;
+	}
+
+
 	/* _______________FUTURE_______________*/
 
 	/* _______________ Future Plans _______________*/
@@ -1804,7 +2151,7 @@ footer {
 	.basicTimeline:before {
 		content: none;
 	}
-	
+
 
 	.basicTimeline h3 {
 		letter-spacing: 4px;
@@ -1822,8 +2169,6 @@ footer {
 		font-size: 16px;
 	}
 
-
-
 	.timelineTextAreaRight {
 		float: none;
 	}
@@ -1833,12 +2178,10 @@ footer {
 
 	}
 
-
 	.timeline-content {
 		width: 100%;
 		padding: 4px;
 	}
-
 
 	.timelineImg {
 		display: block;
@@ -1851,181 +2194,4 @@ footer {
 		margin-bottom: 20px;
 	}
 
-	/* _______________ Future Launches _______________*/
-
-	.centerContentDiv {
-		width: 100%;
-		margin: auto;
-		margin-bottom: 50px;
-	}
-
-
-	#futureLaunchesTable {
-		margin: 0px;
-		padding: 0px;
-		border: rgb(255, 255, 255, 1) solid thin;
-		border-radius: 20px;
-		background-color: rgb(225,225,225, 0.07);
-		font-size: 16px;
-		width: 100%;
-	}
-
-	#futureLaunchesTable td{
-		padding: 0px;
-		padding-top: 10px;
-		padding-bottom: 10px;
-		word-wrap: break-word;
-		
-	}
-
-	
-	/* _______________HISTORY_______________*/
-
-	/* _______________Timeline_______________*/
-
-	#basicTimeline {
-		width: 100%;
-		padding: 0px;
-		margin: auto;
-		position: relative;
-		overflow: hidden;
-		
-	}
-
-	#basicTimeline:before {
-		content: none;
-	}
-	
-
-
-	#basicTimeline h2 {
-		letter-spacing: 4px;
-		font-weight: 100;
-	}
-
-	.timelineTextArea2 {
-		width: 50%;
-		clear: both;
-		
-	}
-
-	.timelineTextArea2 p {
-		font-size: 16px;
-		font-weight: 300;
-	}
-
-	.timelineTextArea2 h4 {
-		letter-spacing: 6px;
-	}
-
-	.timelineTextArea2 p, h2, h4 {
-		margin: 0px;
-		padding: 7px;
-	}
-
-	.timelineTextAreaRight2:nth-child(odd) {
-		float: none;
-		direction: ltr;
-		text-align: right;
-		width: 100%;
-		
-	}
-
-
-	.timelineTextAreaRight2:nth-child(even) {
-		float: none;
-		width: 100%;
-		text-align: left;
-		
-	}
-
-	.timeline-content2 {
-		width: 100%;
-		padding: 4px;
-		margin: auto;
-		
-	}
-
-
-	.timeline-content2 ul {
-		list-style-type: none;
-		display: block;
-		margin: auto;
-		padding: 20px 0px 30px 0px;
-		text-align: center;
-		max-width: 150px;
-	}
-
-
-	.timeline-content2 a {
-		background-color: #550000;
-		font-weight: 300;
-		font-size: 14pt;
-		padding: 5px;
-		border: thin;
-		border-style: solid;
-		letter-spacing: 2px;
-		margin: 3px;
-		display: block;
-		
-	}
-
-	.timeline-content2 a:hover {
-		background-color: rgb(255, 255, 255, 1);
-		box-shadow: none;
-		color: rgb(0, 0, 0, 1.0);
-		font-weight: 300;
-	}
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	/* ______FOOTER______________________*/
-
-	.footer {
-		display: block;
-		width: 100%;
-	}
-	
-	.footerlinks {
-		padding: 5px;
-		margin: 5px;	
-	}
-	
-	.socialmedia {
-		font-weight: 300;
-	}
-	
-	.copyright {
-		font-size: 14px;
-	}
-	
-	
 }
-
